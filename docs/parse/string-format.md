@@ -21,7 +21,7 @@ You may specify a boolean for the last argument to use strict parsing. Strict pa
 
 ```js
 dayjs('1970-00-00', 'YYYY-MM-DD').isValid() // true
-dayjs('1970-00-00', 'YYYY-MM-DD', true).isValid() // false
+dayjs('1970-00-00', 'YYYY-MM-DD', true).isValid() // true
 dayjs('1970-00-00', 'YYYY-MM-DD', 'es', true).isValid() // false
 ```
 
